@@ -35,7 +35,7 @@ function playgame(){
                             ? "user wins"
                             : "computer wins";
 
-                alert(final)
+                alert(`user entered:${user}\n computer entered :${computer}\n final result:${final}`)
              }
              else{
                 alert("enter valid values");
